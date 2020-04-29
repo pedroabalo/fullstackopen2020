@@ -1,0 +1,8 @@
+https://www.websequencediagrams.com/
+
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+server-->browser: HTTP response 201 OK {"message":"note created"}
+note over browser:
+browser exectue the event handler that renders the new note created.
+Don't fetch server data in this moment.
+end note
