@@ -11,6 +11,12 @@ const HeaderStatistics = () =>
   <h1>statistics</h1>
 
 const Statistics = (props) => {
+  
+  if (props.all === 0) {
+    return(
+      <p>No feedback given</p>
+    )
+  }
 
   return(
     <div>
